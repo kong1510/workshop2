@@ -11,13 +11,8 @@ string = "I am the best programmer"
 print(string[9:13])
 
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ที่ไม่มี space
-a = "I"
-b = "am"
-c = "the"
-d = "bast"
-e = "programmer"
-f = a + b + c + d + e
-print(f)
+string = "I am the best programmer"
+print(string.replace(" ", ""))
 
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ให้เป็นตัวพิมใหญ่ทั้งหมด
 string = "I am the best programmer"
